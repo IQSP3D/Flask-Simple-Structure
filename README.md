@@ -85,6 +85,7 @@ This folder contains HTML templates for the application.
 base.html
 A base HTML template using Jinja2 templating syntax.
 Includes blocks like {% block content %} for extending the template in other pages.
+
 migrations/
 --------
 This folder will store database migration files when using Flask-Migrate. It helps in version-controlling database schema changes.
