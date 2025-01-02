@@ -1,5 +1,6 @@
 # Flask Project Template
 Project Structure Overview
+
 project/
 ├── app/
 │   ├── __init__.py
