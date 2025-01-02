@@ -57,6 +57,7 @@ app/config.py
 
 Stores app configurations such as the secret key, database URI, and other settings.
 Uses environment variables when available for secure configuration.
+--------
 2. static/
 This folder contains static assets like CSS, JavaScript, and images.
 
@@ -71,17 +72,17 @@ A sample JavaScript file for adding client-side interactivity.
 app/static/images/placeholder.txt
 
 A placeholder to indicate where image assets should be stored.
-
+--------
 3. app/templates/
 This folder contains HTML templates for the application.
 
 base.html
 A base HTML template using Jinja2 templating syntax.
 Includes blocks like {% block content %} for extending the template in other pages.
-
+--------
 4. migrations/
 This folder will store database migration files when using Flask-Migrate. It helps in version-controlling database schema changes.
-
+--------
 5. tests/
 This folder contains test cases to ensure the app works as expected.
 
@@ -89,11 +90,11 @@ tests/__init__.py
 Makes the tests folder a package.
 test_app.py
 A sample test file for writing unit tests for the app.
-
+--------
 6. .env
 
 Stores environment variables like SECRET_KEY and DATABASE_URL. This file should not be shared publicly.
-
+--------
 7. .gitignore
 
 Specifies files and folders to be ignored by Git, such as:
@@ -101,7 +102,7 @@ Specifies files and folders to be ignored by Git, such as:
 Compiled Python files (*.pyc).
 Environment files (.env).
 Database files (*.sqlite).
-
+--------
 8. requirements.txt
 Lists all the Python dependencies for the project. These can be installed using:
 
@@ -113,7 +114,7 @@ Flask-WTF (forms)
 Flask-SQLAlchemy (database ORM)
 Flask-Migrate (database migrations)
 python-dotenv (environment variable management)
-
+--------
 9. run.py
 
 The entry point for the Flask app. It initializes the app and starts the development server.
