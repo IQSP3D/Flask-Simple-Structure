@@ -2,30 +2,30 @@
 Project Structure Overview
 
 project/                                                                                             
-├── app/
-│   ├── __init__.py
-│   ├── routes.py
-│   ├── models.py
-│   ├── static/
-│   │   ├── css/
-│   │   │   └── styles.css
-│   │   ├── js/
-│   │   │   └── script.js
-│   │   └── images/
-│   │       └── placeholder.txt
-│   ├── templates/
-│   │   └── base.html
-│   ├── forms.py
-│   ├── config.py
-├── migrations/
-├── tests/
-│   ├── __init__.py
-│   ├── test_app.py
-├── .env
-├── .gitignore
-├── requirements.txt
-├── run.py
-└── README.md
+├── app/                                                  
+│   ├── __init__.py                                            
+│   ├── routes.py                                              
+│   ├── models.py                                                        
+│   ├── static/                                            
+│   │   ├── css/                                          
+│   │   │   └── styles.css                                                        
+│   │   ├── js/                              
+│   │   │   └── script.js                                                
+│   │   └── images/                                                      
+│   │       └── placeholder.txt                                                  
+│   ├── templates/                                          
+│   │   └── base.html                                
+│   ├── forms.py                                                    
+│   ├── config.py                                        
+├── migrations/                                    
+├── tests/                                              
+│   ├── __init__.py                                                            
+│   ├── test_app.py                                                      
+├── .env                                                        
+├── .gitignore                                                              
+├── requirements.txt                                    
+├── run.py                      
+└── README.md                    
 
 
 
